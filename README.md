@@ -59,3 +59,13 @@ User Training:
 
 This project proposal aims to address Sears' inventory management challenges with a comprehensive solution, providing a realistic backdrop and leveraging technology to enhance operational efficiency.
 
+
+This code is a Python script for an inventory management tool using the Tkinter library for the graphical user interface (GUI). The tool allows users to log in, access the main menu, and perform various inventory-related tasks.
+
+The main window of the tool is a login screen where users can enter their email and password. The login function checks the provided credentials against the database using the connection function. If the login is successful, the main menu window is displayed.
+
+The main menu window contains buttons for accessing different parts of the inventory management tool, such as the inventory, customer orders, vendors, and password update functions. The open_main_menu function creates and displays the main menu window, while the open_inventory, customer_order_clicked, vendor_clicked, and update_password_clicked functions are placeholders for the actual functionality of these buttons.
+
+The hide_main_menu and sign_out functions allow users to hide the main menu window and sign out of the tool, respectively. The email_entry and password_entry variables are used to store the user's email and password input, while the custom_font variable is used to set a custom font for the GUI.
+
+Overall, this code provides a basic structure for an inventory management tool with a GUI, but the actual functionality of the tool would need to be implemented in the placeholder functions.
